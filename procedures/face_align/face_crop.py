@@ -1,16 +1,14 @@
 from pathlib import Path
-from google.colab import files
 from io import BytesIO
 from matplotlib import pyplot as plt
 from PIL import Image
 import torchvision
-from IPython import display
 import numpy as np
-from shape_predictor import align_face
-from drive import open_url
+from procedures.face_align.shape_predictor import align_face
+from procedures.face_align.drive import open_url
 import dlib
 from mpl_toolkits.axes_grid1 import ImageGrid
-from bicubic import BicubicDownSample
+from procedures.face_align.bicubic import BicubicDownSample
 
 ######################################
 # Stolen (and modified) from PULSE face depixelization
