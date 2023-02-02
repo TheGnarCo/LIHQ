@@ -5,7 +5,6 @@ import sys
 
 import cv2
 from pydub import AudioSegment
-from IPython.display import display
 
 
 #Get a list of all subfolders in audio directory

@@ -1,10 +1,8 @@
 from pathlib import Path
-from google.colab import files
 from io import BytesIO
 from matplotlib import pyplot as plt
 from PIL import Image
 import torchvision
-from IPython import display
 import numpy as np
 from shape_predictor import align_face
 from drive import open_url

@@ -5,7 +5,7 @@ import imageio
 import numpy as np
 import librosa
 from skimage.transform import resize
-from demo import make_animation
+from first_order_model.demo import make_animation
 from skimage import img_as_ubyte
 import warnings
 from moviepy.video.io.VideoFileClip import VideoFileClip
