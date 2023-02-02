@@ -2,7 +2,8 @@ GFPGAN
 MODNet
 QVI
 Wav2Lip
-__pycache__
+__pycache__/
+*.py[cod]
 first_order_model
 input
 lib
