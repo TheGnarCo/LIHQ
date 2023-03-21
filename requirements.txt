@@ -17,6 +17,7 @@ pydub
 ffmpeg
 imageio_ffmpeg
 gdown==4.5.4 #QVI.demo.py no download bug
+scikit-image==0.18.3
 
 
 ########################################Already Installed in colab
